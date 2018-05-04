@@ -1,0 +1,14 @@
+{
+  "name": "tmpTSNodeBug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "GPL",
+  "scripts": {
+    "build": "ts-node index.tsx"
+  },
+  "dependencies": {
+    "@types/node": "10.0.3",
+    "ts-node": "6.0.2",
+    "typescript": "2.8.3"
+  }
+}
