@@ -7,4 +7,6 @@ async function testingFunc() {
     return "testDone";
 }
 
-Promise.all([testingFunc()]).map((result) => console.log(result));
+Promise.all([testingFunc()]).then((result) => console.log(result));
+
+//.map((result) => console.log(result));
